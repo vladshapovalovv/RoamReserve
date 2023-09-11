@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="arrival">Вылет из</string>
+    <string name="departure">Страна, город</string>
+    <string name="date">Даты</string>
+    <string name="nights">Кол-во ночей</string>
+    <string name="hotel">Отель</string>
+    <string name="room">Номер</string>
+    <string name="tariff">Питание</string>
+    <string name="buyer_info">Информация о покупателе</string>
+    <string name="privacy_policy">Эти данные никому не передаются. После оплаты мы вышли чек на указанный вами номер и почту</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="mail">Почта</string>
+    <string name="tour">Тур</string>
+    <string name="fuel_charge">Топливный сбор</string>
+    <string name="service_charge">Сервисный сбор</string>
+    <string name="total_payment">К оплате</string>
+    <string name="add_tourist">Добавить туриста</string>
+    <string name="first_tourist">Первый турист</string>
+    <string name="name">Имя</string>
+    <string name="secondName">Фамилия</string>
+    <string name="birthDate">Дата рождения</string>
+    <string name="citizenship">Гражданство</string>
+    <string name="passportNumber">Номер загранпаспорта</string>
+    <string name="passportExpiry">Срок действия загранпаспорта</string>
+    <string name="booking">Бронирование</string>
+    <string name="pay">"Оплатить "</string>
+    <string name="count_first">Первый турист</string>
+    <string name="count_second">Второй турист</string>
+    <string name="count_third">Третий турист</string>
+    <string name="count_forth">Четвертый турист</string>
+    <string name="count_fifth">Пятый турист</string>
+    <string name="tourist_count">Турист %1$s</string>
+    <string name="field_empty">Поле должно быть заполнено</string>
+    <string name="nights_count">%1$s ночей</string>
+    <string name="order_confirmed">Заказ оплачен</string>
+    <string name="super_label">Супер!</string>
+    <string name="order_accepted">Ваш заказ принят в работу</string>
+    <string name="confirmation_info">Подтверждение заказа №104893 может занять некоторое время (от 1 часа до суток). Как только мы получим ответ от туроператора, вам на почту придет уведомление.</string>
+</resources>

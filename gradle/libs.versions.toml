@@ -1,0 +1,55 @@
+[versions]
+activityKtx = "1.7.2"
+cicerone = "7.1"
+circleindicator = "2.1.6"
+coil = "2.4.0"
+constraintlayout = "2.1.4"
+flexbox = "3.0.0"
+fragmentKtx = "1.6.1"
+lifecycleViewmodelKtx = "2.6.1"
+material = "1.9.0"
+appcompat = "1.6.1"
+core-ktx = "1.9.0"
+android-gradle = "8.1.1"
+ksp = "1.9.0-1.0.11"
+androidx-junit = "1.1.5"
+espresso-core = "3.5.1"
+junit = "4.13.2"
+hilt = "2.47"
+delegates = "1.5.9"
+okHttp = "5.0.0-alpha.11"
+retrofit = "2.9.0"
+viewpager2 = "1.0.0"
+
+
+[libraries]
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-core" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-junit" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+cicerone = { module = "com.github.terrakok:cicerone", version.ref = "cicerone" }
+circleindicator = { module = "me.relex:circleindicator", version.ref = "circleindicator" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+flexbox = { module = "com.google.android.flexbox:flexbox", version.ref = "flexbox" }
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+viewbinding-delegates = { module = "com.github.kirich1409:viewbindingpropertydelegate-noreflection", version.ref = "delegates" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okHttp" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+
+[bundles]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-gradle" }
+android-library = { id = "com.android.library", version.ref = "android-gradle" }
+android-kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "core-ktx" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }

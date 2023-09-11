@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_hotel">Об отеле</string>
+    <string name="hotel">Отель</string>
+    <string name="choose_room_button">К выбору номера</string>
+    <string name="price_from">от %1$s</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="navIconSize">22dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="dividerStartMargin">60dp</dimen>
+    <dimen name="dividerEndMargin">24dp</dimen>
+    <dimen name="backgroundCardRadius">12dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_extra_small">4dp</dimen>
+    <dimen name="margin_extra_large">24dp</dimen>
+    <dimen name="pager_height">260dp</dimen>
+    <dimen name="chip_card_radius">5dp</dimen>
+</resources>

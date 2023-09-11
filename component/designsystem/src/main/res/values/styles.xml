@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBarTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="lineHeight">21dp</item>
+        <item name="fontWeight">500</item>
+    </style>
+
+    <style name="HeadlineTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="lineHeight">26dp</item>
+        <item name="fontWeight">500</item>
+    </style>
+
+    <style name="BodyTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">19dp</item>
+        <item name="fontWeight">400</item>
+    </style>
+
+    <style name="BodyBoldTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">19dp</item>
+        <item name="fontWeight">400</item>
+    </style>
+
+    <style name="LabelMediumTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">16dp</item>
+        <item name="android:textColor">#828796</item>
+        <item name="fontWeight">500</item>
+    </style>
+
+    <style name="LabelLargeTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">19dp</item>
+        <item name="android:textColor">#828796</item>
+        <item name="fontWeight">400</item>
+    </style>
+
+    <style name="BodySmallTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">16dp</item>
+        <item name="fontWeight">500</item>
+    </style>
+
+    <style name="LabelSmallTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">15sp</item>
+        <item name="lineHeight">15dp</item>
+        <item name="fontWeight">500</item>
+    </style>
+
+    <style name="DisplayLargeTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">30sp</item>
+        <item name="lineHeight">36dp</item>
+        <item name="fontWeight">600</item>
+    </style>
+
+    <style name="PriceSecondaryTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">19dp</item>
+        <item name="fontWeight">400</item>
+    </style>
+
+    <style name="PeculiarityChipTextAppearance">
+        <item name="fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#828796</item>
+        <item name="lineHeight">19dp</item>
+        <item name="fontWeight">400</item>
+    </style>
+
+    <style name="Button.Hotel" parent="ThemeOverlay.Material3.Button">
+        <item name="backgroundTint">@color/hotel_blue</item>
+    </style>
+
+</resources>

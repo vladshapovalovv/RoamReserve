@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="star_text">#FFA800</color>
+    <color name="star_background">#fff4cc</color>
+    <color name="hotel_blue">#0D72FF</color>
+    <color name="hotel_blue_background">#e7f1ff</color>
+    <color name="price_secondary">#828796</color>
+    <color name="secondary_background">#FBFBFC</color>
+    <color name="on_surface">#2C3035</color>
+</resources>

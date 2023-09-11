@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RoamReserve</string>
+    <string name="conveniences">Удобства</string>
+    <string name="essentials">Самое необходимое</string>
+    <string name="includedFeatures">Что включено</string>
+    <string name="featuresExcluded">Что не включено</string>
+    <string name="hotelDescription">Об отеле</string>
+
+    <string name="server_error">Server error occurred</string>
+    <string name="connection_error">No connection</string>
+    <string name="unknown_error">Unknown error, %1$s</string>
+</resources>

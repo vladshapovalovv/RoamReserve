@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.Material3.CardView.Filled"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="@dimen/backgroundCardRadius"
+    android:layout_marginTop="@dimen/margin_small"
+    app:cardElevation="@dimen/card_elevation">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arrival"
+                android:textAppearance="@style/LabelLargeTextAppearance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:text="@string/departure"
+                android:textAppearance="@style/LabelLargeTextAppearance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:text="@string/date"
+                android:textAppearance="@style/LabelLargeTextAppearance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:text="@string/nights"
+                android:textAppearance="@style/LabelLargeTextAppearance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:text="@string/hotel"
+                android:textAppearance="@style/LabelLargeTextAppearance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/room"
+                android:textAppearance="@style/LabelLargeTextAppearance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/tariff"
+                android:textAppearance="@style/LabelLargeTextAppearance" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/arrivalTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/BodyTextAppearance"
+                tools:text="Египет, Хургада" />
+
+            <TextView
+                android:id="@+id/departureTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/BodyTextAppearance"
+                tools:text="Санкт-Петербург" />
+
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/BodyTextAppearance"
+                tools:text="19.09.2023 – 27.09.2023" />
+
+            <TextView
+                android:id="@+id/nightsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_weight="2"
+                android:textAppearance="@style/BodyTextAppearance"
+                tools:text="7 ночей" />
+
+            <TextView
+                android:id="@+id/hotelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_weight="2"
+                android:textAppearance="@style/BodyTextAppearance"
+                tools:text="Steigenberger Makadi" />
+
+            <TextView
+                android:id="@+id/roomTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_weight="2"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/BodyTextAppearance"
+                tools:text="Люкс с видом на море" />
+
+            <TextView
+                android:id="@+id/tariffTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_weight="2"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/BodyTextAppearance"
+                tools:text="Все включено" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>
